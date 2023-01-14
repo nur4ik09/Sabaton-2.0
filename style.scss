@@ -1,0 +1,438 @@
+/* raleway-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url(./fonts/raleway-v28-latin_cyrillic-regular.woff2) format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url(./fonts/raleway-v28-latin_cyrillic-regular.woff) format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* pirata-one-regular - latin */
+@font-face {
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url(./fonts/pirata-one-v22-latin-regular.woff2) format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url(./fonts/pirata-one-v22-latin-regular.woff) format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  $sirin: 1376px ;
+body{
+    font-size: 16px;
+    line-height: 1.2;
+    background:url(./img/fon.png) ;
+    width: $sirin;
+    margin: 0px;
+}
+h1{
+    position: absolute;
+    width: $sirin;
+    height: 177.02px;
+    font-family: 'Pirata One';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 164px;
+    text-align: center;
+    color: #F5E9E9;
+    margin-top: 120px;
+}
+header{
+    height: 80px;
+}
+.header__logo{
+    width: 180px;
+}
+.header__logo__link{
+    margin-left: 80px;
+}
+.fonn{
+    width: 1383px;
+    height: 594.74px;
+}
+.firfon{
+    width: 1383px;
+    height: 725.1px;
+
+}
+.header__items{
+    margin-right: 80px;
+}
+.header__link{
+    font-family: Raleway;
+    text-decoration: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.header__link:hover, .header__link:focus, .header__link:active{
+    opacity: .175;
+}
+.wrappper{
+    max-width: $sirin;
+    margin: 0 auto;
+}
+.header__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.youtube__logo{
+    position: absolute;
+    margin-left: 440px;
+    margin-top: 460px;
+}
+.you__name{
+    position: absolute;
+    font-family: Raleway;
+    font-size: 18px;
+    text-align: center;
+    color: #F5E9E9;
+    margin-top: 463px;
+    margin-left: 480px;
+    list-style-type: none;
+}
+.instag__logo{
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 460px;
+}
+.inst__name{
+    position: absolute;
+    font-family: Raleway;
+    font-size: 18px;
+    text-align: center;
+    color: #F5E9E9;
+    margin-top: 463px;
+    margin-left: 660px;
+    list-style-type: none;
+}
+.spotify__logo{
+    position: absolute;
+    margin-left: 840px;
+    margin-top: 460px;
+}
+.spotify__name{
+    position: absolute;
+    font-family: Raleway;
+    font-size: 18px;
+    text-align: center;
+    color: #F5E9E9;
+    margin-top: 463px;
+    margin-left: 870px;
+    list-style-type: none;
+}
+.insta__link{
+    text-decoration: none;
+    color: #F5E9E9;
+}
+.youtube__link{
+    text-decoration: none;
+    color: #F5E9E9;
+}
+.spotify__link{
+    text-decoration: none;
+    color: #F5E9E9;
+}
+.down__fon{
+    width: 1383px;
+    margin-top:-800px;
+}
+.down__logo{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 2550px;
+}
+.down__vk{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 2640px;
+}
+.down__insta{
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 2640px;
+}
+.down__telegram{
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 2570px;
+}
+.down__youtube{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 2570px;
+}
+.down__name__youtube{
+    position: absolute;
+    font-family: Raleway;
+    font-size: 18px;
+    text-align: center;
+    color: #F5E9E9;
+    margin-top: 2570px;
+    margin-left: 750px;
+    list-style-type: none;
+}
+.down__name__insta{
+    position: absolute;
+    font-family: Raleway;
+    font-size: 18px;
+    text-align: center;
+    color: #F5E9E9;
+    margin-top: 2640px;
+    margin-left: 430px;
+    list-style-type: none;
+}
+.down__name__telegram{
+    position: absolute;
+    font-family: Raleway;
+    font-size: 18px;
+    text-align: center;
+    color: #F5E9E9;
+    margin-top: 2570px;
+    margin-left: 430px;
+    list-style-type: none;
+}
+.down__name__vk{
+    position: absolute;
+    font-family: Raleway;
+    font-size: 18px;
+    text-align: center;
+    color: #F5E9E9;
+    margin-top: 2640px;
+    margin-left: 750px;
+    list-style-type: none;
+}
+.name__mus__at{
+    margin-left: 145px;
+    font-family: Raleway;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+.text__at{
+    color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 22px;
+  position: absolute;
+  bottom: -8px;
+  width: 100%;
+  text-align: center;
+}
+.name__mus__def{
+    margin-left: 230px;
+    font-family: Raleway;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+.text__def{
+    color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 104px;
+  width: 100%;
+  text-align: center;
+}
+.name__mus__king{
+    margin-left: 270px;
+    font-family: Raleway;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+.text__king{
+    color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 105px;
+  width: 100%;
+  text-align: center;
+}
+.name__mus__war{
+    margin-left: 160px;
+    font-family: Raleway;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+.text__war{
+    color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 52px;
+  position: absolute;
+  bottom: 105px;
+  width: 100%;
+  text-align: center;
+}
+.name__mus__great{
+    margin-left: 160px;
+    font-family: Raleway;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+.text__great{
+    color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 122px;
+  position: absolute;
+  bottom: 105px;
+  width: 100%;
+  text-align: center;
+}
+.name__mus__hero{
+    margin-left: 160px;
+    font-family: Raleway;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+.text__hero{
+    color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 185px;
+  position: absolute;
+  bottom: 105px;
+  width: 100%;
+  text-align: center;
+}
+.down__contact{
+    position: absolute;
+    font-family: Raleway;
+    font-size: 18px;
+    text-align: center;
+    color: #F5E9E9;
+    margin-top: 2640px;
+    margin-left: 1000px;
+    list-style-type: none;
+}
+.down__contact__email{
+    position: absolute;
+    font-family: Raleway;
+    font-size: 18px;
+    text-align: center;
+    color: #F5E9E9;
+    margin-top: 2570px;
+    margin-left: 1000px;
+    list-style-type: none;
+}
+.email{
+    text-decoration: none;
+}
+.youtube__contact{
+    text-decoration: 0;
+    color: #F5E9E9;
+}
+.telegram__contact{
+    text-decoration: 0;
+    color: #F5E9E9;
+}
+.vk__contact{
+    text-decoration: 0;
+    color: #F5E9E9;
+}
+.insta__contact{
+    text-decoration: 0;
+    color: #F5E9E9;
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    width: $sirin;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 900px;
+  position: relative;
+  margin: 500px;
+  margin-left: 280px;
+  margin-top: -110px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 80px;
+  height: 80px;
+  margin-top: -22px;
+  padding: 26px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  margin-left:-100px ;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 5px;
+  border-radius: 100%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 50%;
+  }
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
